@@ -48,10 +48,10 @@ app.get('/', (req, res) => {
     </head>
     <body>
       <div class="container">
-        <span class="badge">Success</span>
-        <h1>Hello AWS Free Tier!</h1>
-        <p>This Node.js application is running successfully on AWS Elastic Beanstalk, deployed completely automatically via <strong>AWS CodePipeline & CodeBuild</strong>!</p>
-        <p>Try making a local code change, push it to your GitHub repository, and watch AWS CodePipeline redeploy this page in real-time.</p>
+        <span class="badge" style="background: #24292e;">GitHub Actions Pipeline</span>
+        <h1>It's Live! 🚀</h1>
+        <p>This Node.js application is running on AWS Elastic Beanstalk, deployed completely automatically via <strong>GitHub Actions</strong>!</p>
+        <p>Your CI/CD pipeline is now fully active. Every push to this repository will trigger a fresh build and deploy instantly.</p>
       </div>
     </body>
     </html>
